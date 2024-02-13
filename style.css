@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+h1,
+h2 {
+  font-family: Lato;
+}
+#myCharts {
+  width: 400px;
+  height: 400px;
+  margin: 0;
+}
+input {
+  width: 30em;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 31em;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+  border: blue;
+  padding-top: 5px;
+  font-weight: 50px;
+}
